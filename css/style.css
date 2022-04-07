@@ -1,0 +1,116 @@
+/* Fil rouge : sélecteur, dimensions, couleurs */
+/* Text */
+/* Background */
+/* Boxes */
+/* Positioning */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+  background-color: #faf4ec;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 3rem;
+  color: #34421a;
+  text-align : left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  color: #34421a;
+  text-align : left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  color: #000000;
+  text-align : left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  color: burlywood;
+  text-align : left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+em {
+  font-size: 1.5rem;
+  color: burlywood;
+  text-align : left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  font-size: 1.5rem;
+  color: burlywood;
+  text-align : left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input {
+  font-size: 1.5rem;
+  color: burlywood;
+  text-align : left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+table {
+  font-size: 1.5rem;
+  color: burlywood;
+  text-align : left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  background: #faf4ec;
+  width: 45%;
+  min-height: 200px;
+  margin: 10px 10px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  box-shadow: 2px 12px 5px rgba(0, 0, 0, 0.153);
+}
+
+.positioning {
+  border:3px solid burlywood;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#circle {
+  height: 30px;
+  width: 30px;
+  background: #34421a;
+  padding: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 150;
+  right: 0;
+  box-shadow: 0 2px 12px 5px rgba(51,51,51, 0.13);
+  z-index: 1;
+}
+
+#rectangle {
+  height: 30px;
+  width: 30px;
+  background: #34421a;
+  padding: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50;
+  right: 0;
+  box-shadow: 0 2px 12px 5px rgba(51,51,51, 0.13);
+}
